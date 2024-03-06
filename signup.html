@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Members</title>
+    <link rel="stylesheet" href="css/signup-styles.css">
+</head>
+<body>
+    <main class="" id="main">
+        <div id="container">
+            <div id="heading">
+                <h1>Sign Up</h1>
+                <p>Welcome to you become a part of our family</p>
+                <img src="images/logo.webp" alt="logo_hoanglanthao">
+            </div>
+            <div id="content">
+                <div id="form">
+                    <form action="" class="signup-form">
+                        <label for="name-label">
+                            <p>Name</p>
+                            <input type="text" class="form" id="name" placeholder="Enter your name" required>
+                        </label>
+                        <label for="email-label">
+                            <p>Email</p>
+                            <input type="email" class="form" id="email" placeholder="Enter your email" required>
+                        </label>
+                        <label for="number">
+                            <p>Phone Number</p>
+                            <input type="tel" class="form" id="number" minlength="10" maxlength="11" placeholder="Enter your number" required>
+                        </label>
+                        <label for="password-label">
+                            <p>Password</p>
+                            <input type="password" class="form" id="password" placeholder="Enter your password" required>
+                        </label>
+                        <!-- <label for="confirm-password-label">
+                            <p>Confirm Password</p>
+                            <input type="password" class="form" id="confirm-password" placeholder="Confirm your password" required>
+                        </label><br> -->
+                        <br>
+                        <button type="submit" class="submit-form">
+                            Sign Up
+                        </button>
+                    </form>
+                    <p>Already have an account? <a href="login.html">Login</a></p>
+                </div>
+            </div>
+        </div>
+        
+    </main>
+</body>
+<footer></footer>
+<script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-database.js"></script>
+
+<!-- index js -->
+<script src="js/scripts.js"></script>
+</html>
